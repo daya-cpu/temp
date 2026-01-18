@@ -48,7 +48,15 @@ git remote add origin https://github.com/user/repository.git
 git fetch origin
 git checkout master
 git rebase origin/master
-cd ..
+cd ..????////
+mkdir project5
+cd project5
+git init
+git remote add origin https://<GITHUB_USERNAME>:<TOKEN>@github.com/<USERNAME>/<REPOSITORY>.git
+git fetch origin
+git checkout master
+git rebase origin/master
+
 
 # ------------------ Lab 6: Merge a Branch with Custom Commit Message ------------------
 mkdir project6
