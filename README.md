@@ -1,5 +1,5 @@
 # temp nnnn
-# ------------------ Lab 1: Setting Up and Basic Commands ------------------
+------------------ Lab 1: Setting Up and Basic Commands ------------------
 mkdir project1
 cd project1
 git init
@@ -8,7 +8,7 @@ git add file1.txt
 git commit -m "Initial commit: added file1.txt"
 cd ..
 
-# ------------------ Lab 2: Creating and Managing Branches ------------------
+------------------ Lab 2: Creating and Managing Branches ------------------
 mkdir project2
 cd project2
 git init
@@ -20,7 +20,7 @@ git checkout master
 git merge feature-branch
 cd ..
 
-# ------------------ Lab 3: Stashing Changes and Switching Branches ------------------
+ ------------------ Lab 3: Stashing Changes and Switching Branches ------------------
 mkdir project3
 cd project3
 git init
@@ -40,7 +40,7 @@ cd project4
 git clone https://github.com/user/repository.git
 cd ..
 
-# ------------------ Lab 5: Fetch and Rebase Local Branch ------------------
+------------------ Lab 5: Fetch and Rebase Local Branch ------------------
 mkdir project5
 cd project5
 git init
@@ -58,7 +58,7 @@ git checkout master
 git rebase origin/master
 
 
-# ------------------ Lab 6: Merge a Branch with Custom Commit Message ------------------
+ ------------------ Lab 6: Merge a Branch with Custom Commit Message ------------------
 mkdir project6
 cd project6
 git init
