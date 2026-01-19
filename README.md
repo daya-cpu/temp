@@ -69,3 +69,12 @@ git branch feature-branch
 git checkout master
 git merge feature-branch -m "Merged feature-branch into master with custom message"
 cd ..
+
+ 7->mkdir project7
+cd project7
+git init
+touch file.txt
+git add file.txt
+git commit -m "Initial commit"
+git tag v1.0
+
