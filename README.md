@@ -93,7 +93,7 @@ git commit -m "Initial commit"
 git branch source-branch
 git checkout source-branch
 
-# Commit 1 on source-branch
+#Commit 1 on source-branch
 echo "Change 1" >> file.txt
 git add file.txt
 git commit -m "Commit 1 on source-branch"
