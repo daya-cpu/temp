@@ -118,3 +118,35 @@ git checkout master
 git cherry-pick <commit1>^..<commit3>
 
 
+9->mkdir program9
+cd program9
+git init
+touch file.txt
+git add file.txt
+git commit -m "Initial commit"
+git show <commit-id>
+
+
+10->mkdir program10
+cd program10
+git init
+git config user.name "JohnDoe"
+git config user.email "johndoe@example.com"
+
+touch file1.txt
+git add file1.txt
+GIT_AUTHOR_DATE="2023-03-01" GIT_COMMITTER_DATE="2023-03-01" git commit -m "March commit"
+
+touch file2.txt
+git add file2.txt
+GIT_AUTHOR_DATE="2023-10-15" GIT_COMMITTER_DATE="2023-10-15" git commit -m "October commit"
+
+git log --author="JohnDoe" --since="2023-01-01" --until="2023-12-31"
+
+
+11->git log -5
+
+12->Analyzing and Changing Git History Write the command to undo the changes introduced by the commit with the ID “abc123”.->git revert abc123
+
+
+
