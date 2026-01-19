@@ -34,7 +34,7 @@ git checkout new-branch
 git stash apply
 cd ..
 
-# ------------------ Lab 4: Clone a Remote Repository ------------------
+------------------ Lab 4: Clone a Remote Repository ------------------
 mkdir project4
 cd project4
 git clone https://github.com/user/repository.git
