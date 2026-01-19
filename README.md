@@ -78,3 +78,43 @@ git add file.txt
 git commit -m "Initial commit"
 git tag v1.0
 
+
+8->
+mkdir project8
+cd project8
+git init
+
+# Initial commit on main/master
+touch file.txt
+git add file.txt
+git commit -m "Initial commit"
+
+# Create source branch and switch to it
+git branch source-branch
+git checkout source-branch
+
+# Commit 1 on source-branch
+echo "Change 1" >> file.txt
+git add file.txt
+git commit -m "Commit 1 on source-branch"
+
+# Commit 2 on source-branch
+echo "Change 2" >> file.txt
+git add file.txt
+git commit -m "Commit 2 on source-branch"
+
+# Commit 3 on source-branch
+echo "Change 3" >> file.txt
+git add file.txt
+git commit -m "Commit 3 on source-branch"
+
+# View commit hashes
+git log --oneline
+
+# Switch back to main/master
+git checkout master
+
+# Cherry-pick a range of commits from source-branch
+git cherry-pick <commit1>^..<commit3>
+
+
